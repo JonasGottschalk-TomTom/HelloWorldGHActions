@@ -38,3 +38,5 @@ jobs:
           USERNAME: ${{ github.actor }}
           PASSWORD: ${{ secrets.GITHUB_TOKEN }}
         run: mvn verify
+      - name: Run Main
+        run: java Main.java
