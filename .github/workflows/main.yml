@@ -39,4 +39,4 @@ jobs:
           PASSWORD: ${{ secrets.GITHUB_TOKEN }}
         run: mvn verify
       - name: Run Main
-        run: java Main.java
+        run: java src/main/java/com/carlfx/example/Main.java
