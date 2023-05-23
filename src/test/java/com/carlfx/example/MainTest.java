@@ -19,9 +19,5 @@ public class MainTest {
       assertEquals(25, Main.multiply(5,5));
    }
 	
-   @Test
-   public void testHelloWorld() 
-   {
-      #Main.main(null);
-   }
+  
 }
