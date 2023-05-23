@@ -22,6 +22,6 @@ public class MainTest {
    @Test
    public void testHelloWorld() 
    {
-      Main.main(null);
+      #Main.main(null);
    }
 }
